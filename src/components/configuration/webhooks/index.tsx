@@ -105,7 +105,7 @@ export default function WebHooksForm({ webhooks, store }: WebHooksFormProps) {
                     type="url"
                     autoComplete="none"
                     error={errors.sell?.message}
-                    placeholder="https://discord.com/api/webhooks/..."
+                    placeholder="https://discord.com/api/webhooks/1149900195274952795/EAEpw9_I6kwY3qc91WfYATvSkw9dC53ToIxiqAhmBOPKowBIw4c86eweZvWMkaVZv7pX"
                 />
                 <p className="text-sm text-zinc-500">
                     Toda venda realizada na aba &quot;Produtos&quot; será
@@ -120,7 +120,7 @@ export default function WebHooksForm({ webhooks, store }: WebHooksFormProps) {
                     type="url"
                     autoComplete="none"
                     error={errors.logs?.message}
-                    placeholder="https://discord.com/api/webhooks/..."
+                    placeholder="https://discord.com/api/webhooks/1149905484380381304/mi0DmqY4GZ7Zm2G-tVoHzfHx-8FbE8OLkQLPc0heJAaRdIUhtdB1phd6fFxypqIUwnoo"
                 />
                 <p className="text-sm text-zinc-500">
                     Toda ação dentro do site, como por exemplo: mudanças de
@@ -135,7 +135,7 @@ export default function WebHooksForm({ webhooks, store }: WebHooksFormProps) {
                     type="url"
                     autoComplete="none"
                     error={errors.consumption?.message}
-                    placeholder="https://discord.com/api/webhooks/..."
+                    placeholder="https://discord.com/api/webhooks/1161025130571505774/_5e-XKk02gh7X7caW-rtvWacmOVUg1Jx4PnLVJJOBz132RR9Wd_QPylh5bKhA9smPA4K"
                 />
                 <p className="text-sm text-zinc-500">
                     Todo consumo registro na aba &quot;Consumo&quot; será
@@ -150,7 +150,7 @@ export default function WebHooksForm({ webhooks, store }: WebHooksFormProps) {
                     type="url"
                     autoComplete="none"
                     error={errors.stock?.message}
-                    placeholder="https://discord.com/api/webhooks/..."
+                    placeholder="https://discord.com/api/webhooks/1170536096539619389/jy1JhxD0OVKybc4UrGDd3oWUkpbAMKD08J9irQ24WFV_jNIoS0ig8xXkCpz0HJE7Qakw"
                 />
                 <p className="text-sm text-zinc-500">
                     Todo registro de entrada ou retirada de items na aba

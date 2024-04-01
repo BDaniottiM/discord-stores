@@ -111,6 +111,7 @@ export default function CategoriesConfiguration({
                                 {category.name}
                             </p>
                             <button
+                                title="Edit"
                                 onClick={() => {
                                     setOpenDeleteDialog(true)
                                     setIdToDelete(category.id)
