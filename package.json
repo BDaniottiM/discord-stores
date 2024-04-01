@@ -21,7 +21,6 @@
         "@hookform/resolvers": "^3.3.4",
         "@planetscale/database": "^1.13.0",
         "@tailwindcss/forms": "^0.5.7",
-        "@types/node": "20.11.0",
         "@types/react": "18.2.47",
         "@types/react-dom": "18.2.18",
         "@types/tinycolor2": "^1.4.6",
@@ -51,5 +50,8 @@
         "ts-node": "^10.9.2",
         "typescript": "5.3.3",
         "zod": "^3.22.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.2"
     }
 }
