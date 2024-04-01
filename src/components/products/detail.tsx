@@ -77,6 +77,7 @@ const ProductDetailDialog = React.forwardRef<
                         <>
                             {isManager && (
                                 <button
+                                    title="Edit"
                                     onClick={() => {
                                         if (dialogData.product)
                                             onEditClick(dialogData.product.id)

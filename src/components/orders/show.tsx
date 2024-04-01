@@ -149,6 +149,7 @@ export default function ShowOrders({ orders }: ShowOrdersProps) {
                                 <td className="py-2 pr-6 text-end text-sm text-zinc-300 group-last:pb-0">
                                     <button
                                         type="button"
+                                        title="Edit"
                                         onClick={() => {
                                             setOpenDeleteDialog(true)
                                             setIdToDelete(order.id)

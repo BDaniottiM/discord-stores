@@ -108,6 +108,7 @@ export default function OrderResume({ storeId }: OrderResumeProps) {
                                     </td>
                                     <td className="py-1 pr-5 text-end">
                                         <button
+                                            title="Edit"
                                             type="button"
                                             onClick={() =>
                                                 dispatchSell('REMOVE', item)

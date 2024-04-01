@@ -263,6 +263,7 @@ export default function WebhookTempleate({
                                                     index && (
                                                     <button
                                                         type="button"
+                                                        title="Edit"
                                                         className="absolute right-4 top-4 flex items-center gap-x-2 text-sm text-red-700"
                                                         onClick={() =>
                                                             removeFields(index)

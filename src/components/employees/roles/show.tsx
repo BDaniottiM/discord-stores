@@ -51,6 +51,7 @@ export default function ShowEmployeeRoles({ roles }: ShowEmployeeRolesProps) {
                                 </td>
                                 <td className="py-2 pr-4 text-end text-sm text-zinc-300 group-last:pb-0">
                                     <button
+                                        title="Edit"
                                         type="button"
                                         onClick={() =>
                                             createEmployeeRoleDialogRef.current?.edit(

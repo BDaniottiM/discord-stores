@@ -69,6 +69,7 @@ export default function ShowEmployees({
                                 </td>
                                 <td className="px-1 py-2 text-center text-sm text-zinc-300">
                                     <button
+                                        title="Edit"
                                         type="button"
                                         onClick={() =>
                                             createEmployeeDialogRef.current?.edit(
@@ -81,6 +82,7 @@ export default function ShowEmployees({
                                 </td>
                                 <td className="py-2 pl-1 pr-2 text-end text-sm text-zinc-300">
                                     <button
+                                        title="Edit"
                                         className="disabled:cursor-not-allowed disabled:opacity-50"
                                         disabled={
                                             employee.role === 'Proprietário' ||

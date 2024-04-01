@@ -121,6 +121,7 @@ export default function StockResume({ storeId }: StockResumeProps) {
                                     </td>
                                     <td className="py-1 pr-5 text-end">
                                         <button
+                                            title="Edit"
                                             type="button"
                                             onClick={() =>
                                                 dispatchStock('REMOVE', item)

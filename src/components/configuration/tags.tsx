@@ -113,6 +113,7 @@ export default function TagsConfiguration({
                         >
                             <p>{tag.name}</p>
                             <button
+                                title="Edit"
                                 onClick={() => {
                                     setOpenDeleteDialog(true)
                                     setIdToDelete(tag.id)

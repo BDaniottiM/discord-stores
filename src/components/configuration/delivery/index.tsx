@@ -70,6 +70,7 @@ export default function DeliveryValuesConfiguration({
                                 <td className="py-2 pr-4 text-end text-sm text-zinc-300 group-last:pb-0">
                                     <button
                                         type="button"
+                                        title="Edit"
                                         onClick={() => {
                                             createDeliveryValuesDialogRef.current?.edit(
                                                 store,
